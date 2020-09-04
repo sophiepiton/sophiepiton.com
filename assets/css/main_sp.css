@@ -2312,7 +2312,7 @@ input, select, textarea {
 									background-color: #transparent;
 									border-radius: 6px;
 									box-shadow: inset 0px 0px 0px 1px #transparent, inset 0px 2px 1px 0px rgba(255, 255, 255, 0);
-									color: #5E000D !important;
+									color: #transparent !important;
 									display: block;
 									font-size: 26px;
 									height: 48px;
@@ -2325,7 +2325,7 @@ input, select, textarea {
 								}
 
 								ul.social li a:hover:before {
-									background-color: #5E000D;
+									background-color: #transparent;
 								}
 
 		/* Actions */
@@ -2382,14 +2382,14 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 0;
-				text-align: center;
+				text-align: left;
 			}
 
 		/* Nav */
 
 			#nav {
-				height: 44px;
-				line-height: 44px;
+				height: 75px;
+				line-height: 10px;
 			}
 
 				#nav a {
@@ -2403,6 +2403,11 @@ input, select, textarea {
 						background-color: transparent;
 					}
 
+					#nav h1 {
+						margin-top: 0.35px;
+						margin-bottom: 0.05px;
+					}
+
 		/* Articles */
 
 			#top {
@@ -2410,13 +2415,13 @@ input, select, textarea {
 			}
 
 				#top .image {
-					width: 15em;
-					height: 15em;
+					width: 12em;
+					height: 12em;
 					margin-bottom: 0;
 				}
 
 				#top p {
-					font-size: 1em;
+					font-size: 1.25em;
 				}
 
 			#contact footer {
